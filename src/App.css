@@ -7,6 +7,116 @@
   pointer-events: none;
 }
 
+.box{
+ 
+  margin-left: 400px;
+  margin-right: 400px;
+  align-items: center;
+  border-style:none none solid none;
+  border-width: 2px;
+  border-color:cornflowerblue;
+ 
+}
+
+.chip {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: darkgrey;
+  border-radius: 25px;
+
+}
+.profile-pic {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%; 
+  margin-right: 15px; 
+}
+.text{
+  display: flex;
+  flex-direction: row;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 150px; 
+  margin-left: 500px;
+  margin-right: 500px;
+  overflow-y: auto; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+&:hover{
+  background-color: lightgray;
+}
+
+}
+
+.input-container {
+  border-style: none;
+  display: inline-block;
+}
+.chip button {
+ 
+  border-radius: 50%; 
+  cursor: pointer;
+  margin-left: 15px; 
+}
+.button{
+  background-color: darkgray;
+  margin: 4px;
+  border-style: none;
+  border-radius: 50%; 
+  cursor: pointer;
+
+}
+.pick{
+  margin-left: -75px;
+  color: cornflowerblue;
+}
+.input-chips {
+  
+  padding: 3px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: nowrap;
+  overflow: auto;
+  display: inline-block;
+}
+
+
+.input-chips:focus {
+ border-style: none;
+ 
+}
+
+.email{
+  margin: auto;
+}
+
+.selected-chip {
+  align-items: center;
+  border-style: none;
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.selected-chip:focus{
+  outline: none;
+  border-color: transparent;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
